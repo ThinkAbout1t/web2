@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.asd1{
+    background-color: gainsboro
+}
+.asd{
+    background-color: gray
+}
+.asd2{
+    background-color: gold
+}
+@media (max-width:1024px){
+    .asd{
+        color: aquamarine;
+    }
+    .asd1{
+        color: khaki;
+    }
+    .asd2{
+        color: hotpink;
+    }
+}
+@media (max-width:768px){
+    .asd{
+        color: blue;
+    }
+    .asd1{
+        color: blueviolet;
+    }
+    .asd2{
+        color: cadetblue;
+    }
+}
+@media (max-width:375px){
+    .asd{
+        color: green;
+    }
+    .asd1{
+        color: black;
+    }
+    .asd2{
+        color: firebrick;
+    }
+}
