@@ -12,6 +12,10 @@
 .asd2{
     background-color: gold
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 @media (max-width:1024px){
     .asd{
         color: aquamarine;
@@ -21,6 +25,9 @@
     }
     .asd2{
         color: hotpink;
+    }
+    body{
+        flex-direction: column-reverse;
     }
 }
 @media (max-width:768px){
@@ -33,6 +40,9 @@
     .asd2{
         color: cadetblue;
     }
+    body{
+        flex-direction: row-reverse;
+    }
 }
 @media (max-width:375px){
     .asd{
@@ -43,5 +53,8 @@
     }
     .asd2{
         color: firebrick;
+    }
+    body{
+        flex-direction: row;
     }
 }
